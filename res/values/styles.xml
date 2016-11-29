@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.GoogleStyleProgressBarDefaults" parent="android:Theme">
+        <item name="googleProgressStyle">@style/GoogleStyleProgressBar</item>
+    </style>
+
+    <style name="ColorProgressStyle" parent="android:Widget.ProgressBar.Horizontal"></style>
+
+    <style name="GoogleStyleProgressBar" parent="ColorProgressStyle">
+        <item name="color">@color/default_color</item>
+        <item name="sections_count">@integer/default_sections_count</item>
+        <item name="speed">@string/default_speed</item>
+        <item name="stroke_width">@dimen/default_stroke_width</item>
+        <item name="stroke_separator_length">@dimen/default_stroke_separator_length</item>
+        <item name="reversed">@bool/default_reversed</item>
+        <item name="mirror_mode">@bool/default_mirror_mode</item>
+        <item name="interpolator">@integer/default_interpolator</item>
+    </style>
+
+</resources>

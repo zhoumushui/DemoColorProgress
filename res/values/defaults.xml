@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="default_color">#33b5e5</color>
+
+    <dimen name="default_stroke_separator_length">4dp</dimen>
+    <dimen name="default_stroke_width">4dp</dimen>
+
+    <integer name="default_sections_count">4</integer>
+    <integer name="default_interpolator">0</integer>
+
+    <item name="default_speed" format="float" type="string">1</item>
+
+    <bool name="default_reversed">false</bool>
+    <bool name="default_mirror_mode">false</bool>
+    <bool name="default_progressiveStart_activated">false</bool>
+
+</resources>

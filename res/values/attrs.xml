@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="GoogleStyleProgressBar">
+        <attr name="googleProgressStyle" format="reference" />
+        <attr name="color" format="color" />
+        <attr name="stroke_width" format="dimension" />
+        <attr name="stroke_separator_length" format="dimension" />
+        <attr name="sections_count" format="integer" />
+        <attr name="speed" format="float" />
+        <attr name="progressiveStart_speed" format="float" />
+        <attr name="progressiveStop_speed" format="float" />
+        <attr name="interpolator" format="enum">
+            <enum name="interpolator_accelerate" value="0" />
+            <enum name="interpolator_linear" value="1" />
+            <enum name="interpolator_acceleratedecelerate" value="2" />
+            <enum name="interpolator_decelerate" value="3" />
+        </attr>
+        <attr name="reversed" format="boolean" />
+        <attr name="mirror_mode" format="boolean" />
+        <attr name="colors" format="reference" />
+        <attr name="progressiveStart_activated" format="boolean" />
+        <attr name="background" format="reference" />
+        <attr name="generate_background_with_colors" format="boolean" />
+        <attr name="gradients" format="boolean" />
+    </declare-styleable>
+
+</resources>
